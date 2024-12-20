@@ -12,7 +12,7 @@ PKG_NAME:=android-tools
 PKG_VERSION:=4.2.2+git20130218
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/lkiuyu/android-tools.git
+PKG_SOURCE_URL:=https://github.com/wangxiaoeryah/android-tools.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:= 9a1d541442f011d3a3d780ba5a5b650c7d7cad40
 PKG_MIRROR_HASH:=fc97752b2bcb13c4ff9439b3723f83ab07860198c220cecf65eb8b2c4697ca2a
@@ -28,7 +28,7 @@ define Package/android-tools/default
   CATEGORY:=Utilities
   TITLE:=Android Debug Tools
   URL:=http://tools.android.com/
-  DEPENDS:=+zlib +libopenssl +libpthread +kmod-usb-gadget-functionfs
+  DEPENDS:=+zlib +libopenssl +libpthread +kmod-usb-gadget
 endef
 
 define Package/$(PKG_NAME)/Default/description
