@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/rmtfs-$(PKG_VERSION)
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/andersson/rmtfs.git
+PKG_SOURCE_URL:=https://github.com/linux-msm/rmtfs.git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_VERSION:=695d0668ffa6e2a4bf6e676f3c58a444a5d67690
 PKG_MIRROR_HASH:=ef6a3eb2e46cd02dd41b5c63e78c61143df398eb3a141fb8f16290a086ee208a
