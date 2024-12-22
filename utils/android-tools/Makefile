@@ -16,7 +16,7 @@ PKG_SOURCE_URL:=https://github.com/wangxiaoeryah/android-tools.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:= 1b9dcb3ebf3754ea1108bbcb31ae6fbded53e1a3
 PKG_MIRROR_HASH:=skip
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
 PKG_MAINTAINER:=HandsomeYingyan <handsomeyingyan@gmail.com>
 
